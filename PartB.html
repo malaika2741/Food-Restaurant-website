@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style-b.css">
+    <title>Chaaye Khana - Part B</title>
+</head>
+<body>
+    <section class="header">
+        <nav class="navbar">
+            <div class="navbar-box">
+                <h3 class="heading-tertiary">Chaaye Khana</h3>
+            </div>
+            <ul class="navbar-list">
+                <li class="navbar-item"><a href="#">Home</a></li>
+                <li class="navbar-item"><a href="#menu">Menu</a></li>
+                <li class="navbar-item"><a href="#">About</a></li>
+                <li class="navbar-item"><a href="#contact">Contact</a></li>
+                <li class="navbar-item"><a href="#book" class="navbar-link-book">Book</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-container">
+            <div class="video">
+                <video autoplay muted loop>
+                    <source src="background_vid.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="header-box">
+                <h1 class="heading-primary">Best <br><span id="teaspot">Tea Spot</span><br> in town</h1>
+                <p class="lead">For the love of tea</p>
+                <a href="#" class="book-now">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <a name="menu"></a>
+    <section class="menu">
+        <h2 class="menu-heading">Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-hold">
+                <div class="menu-container">
+                    <div class="menu-img menu-img-tea"></div>
+                    <h1 class="menu-title">Tea</h1>
+                    <p class="menu-p">A warm cup for your soul</p>
+                    <h3 class="price">Rs. 100</h3>
+                </div>
+            </div>
+            <div class="menu-hold">
+                <div class="menu-container">
+                    <div class="menu-img menu-img-coffee"></div>
+                    <h1 class="menu-title">Coffee</h1>
+                    <p class="menu-p">Rich and aromatic coffee</p>
+                    <h3 class="price">Rs. 200</h3>
+                </div>
+            </div>
+            <div class="menu-hold">
+                <div class="menu-container">
+                    <div class="menu-img menu-img-quesadilla"></div>
+                    <h1 class="menu-title">Quesadillas</h1>
+                    <p class="menu-p">Delicious and cheesy</p>
+                    <h3 class="price">Rs. 400</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a name="contact"></a>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" class="input" placeholder="Name" required>
+            <input type="email" class="input" placeholder="Email" required>
+            <textarea class="input textarea" placeholder="Message..." required></textarea>
+            <button type="submit" class="contact-btn">Submit</button>
+        </form>
+    </section>
+
+    <a name="book"></a>
+    <section id="book" class="booking">
+        <h2>Booking</h2>
+        <form class="booking-form">
+            <input type="text" class="input" placeholder="Name" required>
+            <input type="email" class="input" placeholder="Email" required>
+            <input type="tel" class="input" placeholder="Phone Number" required>
+            <input type="date" class="input" required>
+            <input type="time" class="input" required>
+            <input type="text" class="input" placeholder="Card Number" required>
+            <input type="text" class="input" placeholder="Cardholder Name" required>
+            <button type="submit" class="booking-btn">Confirm Booking</button>
+        </form>
+    </section>
+</body>
+</html>
